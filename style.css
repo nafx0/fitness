@@ -281,6 +281,8 @@ nav ul li a {
 .training {
     padding: 50px 190px;
     padding-bottom: 0;
+    max-width: 1060px;
+    margin: 0 auto;
 }
 .training-content h3{
     color: #FFF;
@@ -309,7 +311,6 @@ nav ul li a {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
     display: block;
 }
 .row-2 {
@@ -408,6 +409,7 @@ nav ul li a {
     padding: 3.25rem 11.7rem;
     display: flex;
     gap: 11rem;
+    justify-content: space-between;
 }
 .bmi-calc-chart h3 {
     color: #FFF;
@@ -496,6 +498,194 @@ input {
     border-radius: 0.5rem;
     background: rgba(255, 255, 255, 0.10);
     border: none;
+}
+/* Fitness-classes section */
+.fitness-class h3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%; /* 3.6rem */
+    text-align: center;
+    padding-bottom: 0.88rem;
+    padding-top: 80px;
+}
+.fitness-class p {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 171.429% */
+    letter-spacing: 0.01875rem;
+    text-align: center;
+    padding-bottom: 0.88rem;
+}
+.fitness-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 1.125rem;
+    background: rgba(255, 255, 255, 0.10);
+    gap: 1.25rem;
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 1.25rem;
+    position: relative;
+    overflow: hidden;
+}
+.fitness-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 1.125rem;
+}
+.fitness-img-text {
+    position: absolute;
+    z-index: 100;
+    transform: translateX(10%) translateY(-100%);
+    overflow: hidden;
+}
+.fitness-img-text h3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%; /* 1.5rem */
+}
+/* Team section */
+.team-text {
+    max-width: 671px;
+    margin: 80px auto;
+}
+.team-text h3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%; /* 3.6rem */
+    text-align: center;
+    padding-bottom: 0.88rem;
+}
+.team-text p {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 171.429% */
+    letter-spacing: 0.01875rem;
+    text-align: center;
+}
+.team-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 1.125rem;
+    background: rgba(255, 255, 255, 0.10);
+    gap: 1.25rem;
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 1.25rem;
+    position: relative;
+    overflow: hidden;
+}
+.team-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 1.125rem;
+}
+.team-img-text {
+    position: absolute;
+    z-index: 100;
+    transform: translateX(10%) translateY(-140%);
+    overflow: hidden;
+}
+.team-img-text h3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%; /* 1.5rem */
+}
+.team-img-text p {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 1.05rem */
+}
+footer{
+    background: rgba(255, 255, 255, 0.10);
+    margin-top: 5.5rem;
+    padding: 4.13rem 11.87rem;
+}
+.fitness-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6.4rem;
+}
+.fitness-footer-title h3 {
+    color: #E6533C;
+    font-family: Inter;
+    font-size: 4.375rem;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 120%; /* 5.25rem */
+    padding-bottom: 1.25rem;
+}
+.fitness-footer-title p {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 171.429% */
+    letter-spacing: 0.01875rem;
+}
+.fitness-footer-sub h3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 2.4rem */
+    padding-bottom: 2.44rem;
+}
+.fitness-footer-sub p {
+    color: rgba(255, 255, 255, 0.50);
+
+/* P1 Main/Regular */
+font-family: Inter;
+font-size: 1.4375rem;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 1.725rem */
+padding-bottom: 1.25rem;
+}
+.fitness-footer-sub {
+    padding-bottom: 4rem;
+}
+hr {
+    stroke-width: 2px;
+    stroke: rgba(255, 255, 255, 0.10);
+}
+.copywrite {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 120% */
+    letter-spacing: 0.01875rem;
+    text-align: center;
+    padding-top: 2.25rem;
 }
 
 /* for tablet */
@@ -587,7 +777,6 @@ input {
         flex-direction: column;
         gap: 4rem;
     }
-
 }
 
 /* for mobile */
@@ -595,7 +784,7 @@ input {
     *{ 
         margin: 0;
         padding: 0;
-        /* outline: 1px solid red; */
+        outline: 1px solid red;
     }
     body {
         background-image: linear-gradient(rgba(17, 17, 17, 1) 0%, rgba(119, 119, 119, 0.2));
@@ -766,6 +955,8 @@ input {
         padding: 10px;
         display: flex;
         gap: 3rem;
+        transform: translateX(-10px);
+        width: 100%;
     }
     .bmi-calc-input {
         display: flex;
@@ -774,4 +965,29 @@ input {
     .bmi-calc-func, .bmi-calc-chart {
         max-width: 400px;
     }
+    .bmi-calc-func .btn{
+        width: 50%;
+        background-color: rgba(230, 83, 60, 1);
+    }
+    .fitness-img {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .team-img {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .team-text {
+        margin: 30px 0;
+    }
+    footer {
+        padding: 0;
+        max-width: 450px;
+    }
+    .fitness-footer {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+    .fitness-footer-title p {
+        width: 19.8125rem;
+    }
+
 }
