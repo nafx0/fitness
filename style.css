@@ -521,6 +521,10 @@ input {
     letter-spacing: 0.01875rem;
     text-align: center;
     padding-bottom: 0.88rem;
+    max-width: 41.9375rem;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 5rem;
 }
 .fitness-img {
     display: grid;
@@ -784,7 +788,6 @@ hr {
     *{ 
         margin: 0;
         padding: 0;
-        outline: 1px solid red;
     }
     body {
         background-image: linear-gradient(rgba(17, 17, 17, 1) 0%, rgba(119, 119, 119, 0.2));
